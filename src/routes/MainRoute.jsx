@@ -13,6 +13,8 @@ import Dashboard from "../pages/admin/dashboard";
 import AdminLayout from "../layout/AdminLayout";
 import ProtectedRoute from "./ProtectedRote";
 import PageNotFound from "../pages/common/PageNotFound";
+import OTP from "../pages/common/OTP";
+import Password from "../pages/common/Password";
 
 export default function MainRoute() {
   const [isAuthenticated, setIsAuthenticated] = useState(true);
@@ -83,6 +85,22 @@ export default function MainRoute() {
           element={
             <ClientLayout>
               <SignUp />
+            </ClientLayout>
+          }
+        />
+        <Route
+          path="/otp"
+          element={
+            <ClientLayout>
+              <OTP/>
+            </ClientLayout>
+          }
+        />
+        <Route
+          path="/password"
+          element={
+            <ClientLayout>
+              <Password/>
             </ClientLayout>
           }
         />
