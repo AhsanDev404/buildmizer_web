@@ -7,6 +7,8 @@ import {
   FaChevronDown,
 } from "react-icons/fa";
 
+import {HiMenu} from 'react-icons/hi'
+
 export {
   FaUser,
   FaFacebookF,
@@ -14,4 +16,5 @@ export {
   FaTwitter,
   FaLinkedinIn,
   FaChevronDown,
+  HiMenu
 };

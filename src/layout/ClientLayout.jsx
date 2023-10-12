@@ -7,7 +7,7 @@ export default function ClientLayout({children}) {
   return (
     <div>
     <Header />
-    <Box minH={'95vh'}>{children}</Box>
+    <Box minH={'95vh'} p={5}>{children}</Box>
     <Footer />
   </div>
   )
