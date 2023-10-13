@@ -7,6 +7,8 @@ import {
   FaChevronDown,
 } from "react-icons/fa";
 
+import profile from "../assets/images/profile.jpg"
+
 import {HiMenu} from 'react-icons/hi'
 
 export {
@@ -18,3 +20,5 @@ export {
   FaChevronDown,
   HiMenu
 };
+
+export {profile};
