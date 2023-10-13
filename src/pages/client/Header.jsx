@@ -21,8 +21,8 @@ export default function Header() {
         </Box>
         <HStack>
           <HStack gap={5} display={{ base: "none", lg: "flex" }}>
-            {header.map((item) => (
-              <Link to={item.link}>{item.title}</Link>
+            {header.map((item , index) => (
+              <Link key={index} to={item.link}>{item.title}</Link>
             ))}
           </HStack>
           <Box mx={5}>

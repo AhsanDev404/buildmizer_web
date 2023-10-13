@@ -1,4 +1,4 @@
-import { profile } from "./assets";
+import { cement, profile } from "./assets";
 
 export const header = [
   {
@@ -43,3 +43,21 @@ export const studentData = [
     participation: "Active",
   },
 ];
+
+export const products = [
+  {
+    productImage:cement, 
+    title:'title', 
+    price:2000 
+  },
+  {
+    productImage:cement, 
+    title:'title', 
+    price:2000 
+  },
+  {
+    productImage:cement, 
+    title:'title', 
+    price:2000 
+  }
+]

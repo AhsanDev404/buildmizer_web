@@ -14,6 +14,8 @@ import {
 
 import profile from "../assets/images/profile.jpg";
 import hero from "../assets/images/hero.jpg";
+import constructionImage from "../assets/images/constructionImage.png";
+import cement from "../assets/images/cement.jpg";
 
 import { HiMenu } from "react-icons/hi";
 
@@ -35,4 +37,4 @@ export {
   FaMoneyBillWave,
 };
 
-export { profile, hero };
+export { profile, hero,constructionImage,cement };
