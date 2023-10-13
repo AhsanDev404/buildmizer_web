@@ -11,7 +11,7 @@ export const header = [
   },
   {
     title: "Project",
-    link: "/project",
+    link: "/projects",
   },
   {
     title: "Stay in Touch",

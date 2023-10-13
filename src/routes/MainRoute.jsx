@@ -49,9 +49,11 @@ export default function MainRoute() {
         <Route
           path="/Projects"
           element={
-            <ClientLayout>
-              <Project />
-            </ClientLayout>
+            <ProtectedRoute isAuthenticated={isAuthenticated}>
+              <ClientLayout>
+                <Project />
+              </ClientLayout>
+            </ProtectedRoute>
           }
         />
         <Route
@@ -92,7 +94,7 @@ export default function MainRoute() {
           path="/otp"
           element={
             <ClientLayout>
-              <OTP/>
+              <OTP />
             </ClientLayout>
           }
         />
@@ -100,7 +102,7 @@ export default function MainRoute() {
           path="/password"
           element={
             <ClientLayout>
-              <Password/>
+              <Password />
             </ClientLayout>
           }
         />
