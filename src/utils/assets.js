@@ -5,11 +5,17 @@ import {
   FaTwitter,
   FaLinkedinIn,
   FaChevronDown,
+  FaDollarSign,
+  FaClock,
+  FaMapMarkerAlt,
+  FaCheckCircle,
+  FaTruck, FaCreditCard, FaShieldAlt, FaMoneyBillWave
 } from "react-icons/fa";
 
-import profile from "../assets/images/profile.jpg"
+import profile from "../assets/images/profile.jpg";
+import hero from "../assets/images/hero.jpg";
 
-import {HiMenu} from 'react-icons/hi'
+import { HiMenu } from "react-icons/hi";
 
 export {
   FaUser,
@@ -18,7 +24,15 @@ export {
   FaTwitter,
   FaLinkedinIn,
   FaChevronDown,
-  HiMenu
+  HiMenu,
+  FaDollarSign,
+  FaClock,
+  FaMapMarkerAlt,
+  FaCheckCircle,
+  FaTruck,
+  FaCreditCard,
+  FaShieldAlt,
+  FaMoneyBillWave,
 };
 
-export {profile};
+export { profile, hero };
