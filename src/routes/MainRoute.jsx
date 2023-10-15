@@ -7,10 +7,10 @@ import Calculator from "../pages/client/Calculator";
 import Project from "../pages/client/Project";
 import ProjectDetails from "../pages/client/ProjectDetails";
 import StayInTouch from "../pages/client/StayInTouch";
-// import Login from "../pages/common/login";
+import Login from "../pages/common/login";
 import SignUp from "../pages/common/signup";
-// import Dashboard from "../pages/admin/dashboard";
-// import AdminLayout from "../layout/AdminLayout";
+import Dashboard from "../pages/admin/dashboard";
+import AdminLayout from "../layout/AdminLayout";
 import ProtectedRoute from "./ProtectedRote";
 import PageNotFound from "../pages/common/PageNotFound";
 import OTP from "../pages/common/OTP";
@@ -74,14 +74,14 @@ export default function MainRoute() {
         />
 
         {/* common route */}
-        {/* <Route
+        <Route
           path="/login"
           element={
             <ClientLayout>
               <Login />
             </ClientLayout>
           }
-        /> */}
+        />
         <Route
           path="/signup"
           element={
@@ -108,7 +108,7 @@ export default function MainRoute() {
         />
 
         {/* Admin Routes */}
-        {/* <Route
+        <Route
           path="/admin"
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated} adminRoute={true}>
@@ -117,7 +117,7 @@ export default function MainRoute() {
               </AdminLayout>
             </ProtectedRoute>
           }
-        /> */}
+        />
 
         <Route path="*" element={<PageNotFound />} />
       </Routes>
