@@ -7,7 +7,7 @@ import Calculator from "../pages/client/Calculator";
 import Project from "../pages/client/Project";
 import ProjectDetails from "../pages/client/ProjectDetails";
 import StayInTouch from "../pages/client/StayInTouch";
-import Login from "../pages/common/login";
+// import Login from "../pages/common/login";
 import SignUp from "../pages/common/signup";
 // import Dashboard from "../pages/admin/dashboard";
 // import AdminLayout from "../layout/AdminLayout";
@@ -74,14 +74,14 @@ export default function MainRoute() {
         />
 
         {/* common route */}
-        <Route
+        {/* <Route
           path="/login"
           element={
             <ClientLayout>
               <Login />
             </ClientLayout>
           }
-        />
+        /> */}
         <Route
           path="/signup"
           element={
