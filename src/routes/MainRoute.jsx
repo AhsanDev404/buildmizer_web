@@ -8,7 +8,7 @@ import Project from "../pages/client/Project";
 import ProjectDetails from "../pages/client/ProjectDetails";
 import StayInTouch from "../pages/client/StayInTouch";
 import Login from "../pages/common/Login";
-import SignUp from "../pages/common/Signup";
+import SignUp from "../pages/common/SignUp";
 import Dashboard from "../pages/admin/Dashboard";
 import AdminLayout from "../layout/AdminLayout";
 import ProtectedRoute from "./ProtectedRote";
