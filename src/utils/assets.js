@@ -9,7 +9,11 @@ import {
   FaClock,
   FaMapMarkerAlt,
   FaCheckCircle,
-  FaTruck, FaCreditCard, FaShieldAlt, FaMoneyBillWave
+  FaTruck,
+  FaCreditCard,
+  FaShieldAlt,
+  FaMoneyBillWave,
+  FaPlus,
 } from "react-icons/fa";
 
 import profile from "../assets/images/profile.jpg";
@@ -35,6 +39,7 @@ export {
   FaCreditCard,
   FaShieldAlt,
   FaMoneyBillWave,
+  FaPlus,
 };
 
-export { profile, hero,constructionImage,cement };
+export { profile, hero, constructionImage, cement };
